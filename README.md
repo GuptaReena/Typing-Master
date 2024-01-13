@@ -6,14 +6,13 @@
 
 
 
-#Step 2 : Configure bootstrap.min.css file in to angular.json
+# Step 2 : Configure bootstrap.min.css file in to angular.json
 
 
-#app.component.html
+# app.component.html
 
 
-
-#Step 3 : Create a card layout in your app.component.html file 
+# Step 3 : Create a card layout in your app.component.html file 
 
 				1 Input Field
 
@@ -26,22 +25,20 @@
 
 
 
-#app.Component.ts
+# app.Component.ts
 
 A method to take an input from user
 
---> enteredText : String = ' ';
+ enteredText : String = ' ';
 
 
 
 # install npm i @faker-js/faker
-
 		Import into app.component.ts
       -->randomText : faker.lorem.sentence();
 
  
-
-**#Step 4 : Create a method **
+# Step 4 : Create a method 
 
 					userInput(el : String){
 
@@ -51,9 +48,7 @@ A method to take an input from user
 
 						}
 
-#A method to Compare the user Input with the random input
-
-
+# A method to Compare the user Input with the random input
 
 # Step 5 :  Create a method compare
 
