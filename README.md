@@ -41,7 +41,7 @@ A method to take an input from user
 
  
 
-#Step 4 : Create a method 
+**#Step 4 : Create a method **
 
 					userInput(el : String){
 
