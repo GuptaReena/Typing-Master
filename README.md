@@ -17,11 +17,10 @@
 
 				1 Input Field
 
-							 bind metgod with your inputField 
-
-										--> # text  (input) = userInput(text.value)  
-
-				<span  [class] = compare(rl, el[input])  *ngFor = let rl from randomText.split(''), let input = index;"></span>
+					bind metgod with your inputField 
+     
+					--> # text  (input) = userInput(text.value)  
+          <span  [class] = compare(rl, el[input])  *ngFor = let rl from randomText.split(''), let input = index;"></span>
 
 
 
@@ -29,11 +28,7 @@
 
 #app.Component.ts
 
-
-
 A method to take an input from user
-
-
 
 --> enteredText : String = ' ';
 
@@ -55,8 +50,6 @@ A method to take an input from user
 						this.input = enteredText;
 
 						}
-
-
 
 #A method to Compare the user Input with the random input
 
@@ -81,7 +74,7 @@ A method to take an input from user
 					}
 
 
------------------------------------------------------------------------------------------###############################-------------------------------------------------------------------------------------------
+-------------------------------------------------###############################--------------------------------------------------------------------
 
 
 # Typing
