@@ -35,15 +35,14 @@ A method to take an input from user
 
 
 
-enteredText : String = ' ';
+--> enteredText : String = ' ';
 
 
 
 # install npm i @faker-js/faker
 
 		Import into app.component.ts
-
-randomText : faker.lorem.sentence();
+      -->randomText : faker.lorem.sentence();
 
  
 
